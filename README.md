@@ -1,3 +1,4 @@
 # learning-js
 
-Me llamo Maria
+Me llamo María
+Y me apellido Costa
