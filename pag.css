@@ -1,0 +1,28 @@
+div.form1-input{
+    background-color: rgba(101, 219, 219, 0.5);  /*0.5=opacidad*/
+    height:5em; /*las medidas pueden ser px, %, 100vh(todo), em*/
+    width: 50%; /*px, %, 100vw (todo viewport width), em*/
+}
+#form1{
+    display:none;    /*Esconder el formulario 1*/
+}
+
+#button-save1{
+    margin: 1em;
+
+    padding-top: 1em;
+    padding-bottom: 2em;
+    color:rgb(140, 24, 155);
+    border: 4px dashed rgb(2, 2, 2);
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+#button-cancel1{
+    margin: 1em;
+    padding: 2em;
+
+    border: 0px;
+    border-radius: 25px;
+    background-color: rgba(231, 183, 217, 0.425);
+}
