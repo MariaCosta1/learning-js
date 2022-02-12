@@ -1,0 +1,25 @@
+/*Todos los elementos de la lista li tendrán un tamaño de 30px*/
+
+li{
+    font-size:30px;
+}
+form{
+    font-family:"Verdana";
+}
+main{
+    background-color: rgb(223, 81, 192);
+}
+/*  .  : Todos los elementos de la clase*/
+.form-input{
+    color:rgb(255, 255, 255)
+}
+/*  #  : un id en concreto*/
+#b{
+    border: 5px solid black
+}
+
+div.form-input{
+    /*Si hay algún elemento que tenga la clase form-input pero no esté dentro
+    de un div, no se le aplicará el estilo. Solo a los form-inputs que haya dentro
+    de divs*/
+}

@@ -3,9 +3,7 @@ div.form1-input{
     height:5em; /*las medidas pueden ser px, %, 100vh(todo), em*/
     width: 50%; /*px, %, 100vw (todo viewport width), em*/
 }
-#form1{
-    display:none;    /*Esconder el formulario 1*/
-}
+
 
 #button-save1{
     margin: 1em;
@@ -25,4 +23,15 @@ div.form1-input{
     border: 0px;
     border-radius: 25px;
     background-color: rgba(231, 183, 217, 0.425);
+}
+#form1{
+    display: none;    /*Esconder el formulario 1*/
+}
+
+#button-save2{      /*el boton tiene asignadp un estilo predeterminado por bootstrap en la pag.html: btn btn-primary*/
+                    /*con css sobre escribo el estilo*/
+
+    color:rgb(255, 251, 0);  
+    /*segun btn btn primary, el boton es azul con letra blanca. Con css he sobreescrito que la letra sea amarilla*/
+ 
 }

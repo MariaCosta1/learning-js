@@ -1,0 +1,109 @@
+<!--Si pongo html:5 se rellena el ppio solo-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi paginas</title>
+
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./pag.css">  <!--aquí indico cual es mi hoja de estilos-->
+
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+
+        <form id="form1">
+            <h2>FORMULARIO 1</h2>
+            <div class="form1-input" id="a">
+                <label for="">
+                    Nombre
+                </label>
+                <input type="text" id="nombre">    
+
+            </div>
+            <div>
+                <label for="">
+                    Apellido
+                </label>
+                <input type="text" id="nombre">    
+
+            </div>
+
+            <div class="form1-input" id="b">
+                <label for="">
+                    Edad
+                </label>
+                <input type="number">                
+            </div>
+
+            <div >
+                <button id="button-save1">
+                    Guardar formulario
+                </button>
+            </div>
+            <div >
+                <button id="button-cancel1">
+                    Cancelar formulario
+                </button>
+            </div>
+        </form>  <!--form1-->
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <form id="form2">
+            <h2>FORMULARIO 2</h2>
+
+            <div class="container-fluid"> <!--clase predefinida en bootstrap-->
+                <div class="row">  <!--fila 1--> <!--una fila puede tener hasta 12 col-->
+                    <div class="col form2-input" id="a"> <!--clase col predefinida en bootstrap-->
+                        <label for="">
+                            Compañia
+                        </label>
+                        <input type="text" id="nombre">    
+                    </div>
+                    <div class="col">
+                        <label for="">
+                            Direccion
+                        </label>
+                        <input type="text" id="nombre">    
+                    </div>
+                    <div class="col form2-input" id="b">
+                        <label for="">
+                            Numero
+                        </label>
+                        <input type="number">                
+                    </div>
+                </div>
+                <br>
+                <div class="row">  <!--fila 2-->
+                    <div class="col-2"> <!--de las 12 columnas en las que se divide una fila, quiero que el boton ocupe 2-->
+                        <button class="btn btn-primary" id="button-save2">
+                            Guardar formulario
+                        </button>
+                    </div>
+                    <div class="col-1"> <!--de las 12 columnas en las que se divide una fila, quiero que el boton ocupe 1-->
+                        <button id="button-cancel2">
+                            Cancelar formulario
+                        </button>
+                    </div>
+                </div>
+  
+            </div>
+            
+        </form> <!--form2-->
+    </main>
+
+
+    <footer>
+
+    </footer>
+</body>
+</html>
